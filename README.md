@@ -1,3 +1,10 @@
+##Introduction
+Few-shot object detection for remote sensing images with direction-aware and multi-scale enhancement fusion
+
+This is a pytorch implementation of 《GUGEN: Global User Graph Enhanced Network For Next POI Recommendation》(IEEE TMC 2024, under review).
+
+Detail information will be released after publication.
+
 ## Installation
 This code is based on [MMFewshot](https://github.com/open-mmlab/mmfewshot), you can see the mmfew for more detail about the instructions.
 
