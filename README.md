@@ -79,8 +79,8 @@ the highest accuracy, while blue represents the second highest accuracy.
     <td>37</td>
     <td>52</td>
     <td>56</td>
-    <td>83</td>
-    <td>57</td>
+    <td color="blue">83</td>
+    <td color="red">57</td>
     <td>65</td>
   </tr>
 </table>
