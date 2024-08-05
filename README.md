@@ -43,6 +43,40 @@ bash ./tools/detection/dist_train.sh \
 ```
 
 ## Performance
+
+TABLE 2: FSOD performance on the novel classes of the DIOR test set under 3, 5, 10-shot settings.
+<table style="width:100%;">
+  <tr>
+    <th rowspan="1">Split</th>
+    <th rowspan="2">Source</th>
+    <th colspan="4">Split 1</th>
+    <th colspan="4">Split 2</th>
+    <th colspan="4">Split 3</th>
+    <th colspan="4">Split 4</th>
+  </tr>
+  <tr>
+    <td>Method</td>
+    <td></td>
+    <td>3-shot</td>
+    <td>5-shot</td>
+    <td>10-shot</td>
+    <td>mean</td>
+    <td>3-shot</td>
+    <td>5-shot</td>
+    <td>10-shot</td>
+    <td>mean</td>
+    <td>3-shot</td>
+    <td>5-shot</td>
+    <td>10-shot</td>
+    <td>mean</td>
+   <td>3-shot</td>
+    <td>5-shot</td>
+    <td>10-shot</td>
+    <td>mean</td>
+  </tr>
+  
+</table>
+
 TABLE 3: FSOD performance on the novel classes of the NWPU VHR-10.v2 test set under 3, 5, and 10-shot settings.
 <table style="width:100%;">
   <tr>
