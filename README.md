@@ -18,7 +18,7 @@ Following the original implementation, it consists of 3 steps:
 - **Step2: Reshape the bbox head of base model**:
    - create a new bbox head for all classes fine-tuning (base classes + novel classes) using provided script.
    - the weights of base class in new bbox head directly use the original one as initialization.
-   - <p style="color:red;">the</p> weights of novel class in new bbox head use random initialization.
+   - the weights of novel class in new bbox head use random initialization.
 
 - **Step3: Few shot fine-tuning**:
    - use the base model from step2 as model initialization and further fine tune the bbox head with few shot datasets.
@@ -43,8 +43,7 @@ bash ./tools/detection/dist_train.sh \
 ```
 
 ## Performance
-TABLE 3: FSOD performance on the novel classes of the NWPU VHR-10.v2 test set under 3, 5, and 10-shot settings. Red represents
-the highest accuracy, while blue represents the second highest accuracy.
+TABLE 3: FSOD performance on the novel classes of the NWPU VHR-10.v2 test set under 3, 5, and 10-shot settings.
 <table style="width:100%;">
   <tr>
     <th rowspan="2">Method</th>
@@ -78,10 +77,10 @@ the highest accuracy, while blue represents the second highest accuracy.
     <td>77</td>
     <td>37</td>
     <td>52</td>
-    <td><font color=#FF0000>56</font></td>
-    <td><font color=blue>83</font></td>
-    <td><font color=red>57</font></td>
-    <td>65</td>
+    <td>56</td>
+    <td>83</td>
+    <td>57</td>
+    <td>$\color{red}{65}</td>
   </tr>
 </table>
 
@@ -101,7 +100,7 @@ the highest accuracy, while blue represents the second highest accuracy.
 ```bash
 Feel free to contact us:
 
-Xu ZHANG, Ph.D, <font color=#FF0000>Professor</font>
+Xu ZHANG, Ph.D, Professor
 
 Chongqing University of Posts and Telecommunications
 
