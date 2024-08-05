@@ -43,13 +43,13 @@ bash ./tools/detection/dist_train.sh \
 ```
 ### Visualization
 <p align="center">
-  <img src="https://github.com/CQRhinoZ/DAMSE/blob/main/20873 (2).jpg">
+  <img src="https://github.com/CQRhinoZ/DAMSE/blob/main/Vis_20873.jpg">
 </p>
 <p align="center">
-  <img src="https://github.com/CQRhinoZ/DAMSE/blob/main/11739 (2).jpg">
+  <img src="https://github.com/CQRhinoZ/DAMSE/blob/main/Vis_11739.jpg">
 </p>
 <p align="center">
-  <img src="https://github.com/CQRhinoZ/DAMSE/blob/main/20432 (2).jpg">
+  <img src="https://github.com/CQRhinoZ/DAMSE/blob/main/Vis_20432.jpg">
 </p>
 
 
