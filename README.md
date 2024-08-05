@@ -56,7 +56,6 @@ TABLE 2: FSOD performance on the novel classes of the DIOR test set under 3, 5, 
   </tr>
   <tr>
     <td>Method</td>
-    <td></td>
     <td>3-shot</td>
     <td>5-shot</td>
     <td>10-shot</td>
