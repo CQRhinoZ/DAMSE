@@ -11,7 +11,7 @@ This code is based on [MMFewshot](https://github.com/open-mmlab/mmfewshot), you 
 ## Two-stage training framework
 
 
-Following the original implementation, it consists of 3 steps:
++ Following the original implementation, it consists of 3 steps:
 - **Step1: Base training**
    - use all the images and annotations of base classes to train a base model.
 
