@@ -18,7 +18,7 @@ Following the original implementation, it consists of 3 steps:
 - **Step2: Reshape the bbox head of base model**:
    - create a new bbox head for all classes fine-tuning (base classes + novel classes) using provided script.
    - the weights of base class in new bbox head directly use the original one as initialization.
-   - <span style="color:red;">the</span> weights of novel class in new bbox head use random initialization.
+   - <p style="color:red;">the</p> weights of novel class in new bbox head use random initialization.
 
 - **Step3: Few shot fine-tuning**:
    - use the base model from step2 as model initialization and further fine tune the bbox head with few shot datasets.
