@@ -41,6 +41,50 @@ python -m tools.detection.misc.initialize_bbox_head \
 bash ./tools/detection/dist_train.sh \
     configs/detection/dms-fsod/dior/split1/dms_r101_fpn_nwpu-split1_3shot-fine-tuning.py 2
 ```
+
+## Performance
+TABLE 3: FSOD performance on the novel classes of the NWPU VHR-10.v2 test set under 3, 5, and 10-shot settings. Red represents
+the highest accuracy, while blue represents the second highest accuracy.
+<table style="width:100%;">
+  <tr>
+    <th rowspan="2">Method</th>
+    <th rowspan="2">Source</th>
+    <th colspan="4">3-shot</th>
+    <th colspan="4">5-shot</th>
+    <th colspan="4">10-shot</th>
+  </tr>
+  <tr>
+    <td>AP</td>
+    <td>BD</td>
+    <td>TC</td>
+    <td>mean</td>
+    <td>AP</td>
+    <td>BD</td>
+    <td>TC</td>
+    <td>mean</td>
+    <td>AP</td>
+    <td>BD</td>
+    <td>TC</td>
+    <td>mean</td>
+  </tr>
+  <tr>
+    <td>FAM&SAM</td>
+    <td>IEEE J-STARS2024</td>
+    <td>19</td>
+    <td>66</td>
+    <td>22</td>
+    <td>36</td>
+    <td>43</td>
+    <td>77</td>
+    <td>37</td>
+    <td>52</td>
+    <td>56</td>
+    <td>83</td>
+    <td>57</td>
+    <td>65</td>
+  </tr>
+</table>
+
 ### Visualization
 <p align="center">
   <img src="https://github.com/CQRhinoZ/DAMSE/blob/main/Vis_20873.jpg">
