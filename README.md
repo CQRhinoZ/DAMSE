@@ -11,7 +11,7 @@ This code is based on [MMFewshot](https://github.com/open-mmlab/mmfewshot), you 
 ## Two-stage training framework
 
 
-+ Following the original implementation, it consists of 3 steps:
+ Following the original implementation, it consists of 3 steps:
 - **Step1: Base training**
    - use all the images and annotations of base classes to train a base model.
 
@@ -80,7 +80,151 @@ TABLE 3: FSOD performance on the novel classes of the NWPU VHR-10.v2 test set un
     <td>56</td>
     <td>83</td>
     <td>57</td>
-    <td>$\color{red}{65}</td>
+    <td>65</td>
+  </tr>
+  <tr>
+    <td>RCCA-FSD</td>
+    <td>IEEE J-STARS2023</td>
+    <td>40.85</td>
+    <td>66.77</td>
+    <td>29.66</td>
+    <td>45.76</td>
+    <td>46.94</td>
+    <td>72.94</td>
+    <td>37.5</td>
+    <td>52.46</td>
+    <td>49.24</td>
+    <td>71.8</td>
+    <td>42.22</td>
+    <td>54.42</td>
+  </tr>
+  <tr>
+    <td>G-FSDet</td>
+    <td>ISPRS2023</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>49.05</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>56.1</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>71.82</td>
+  </tr>
+   <tr>
+    <td>ICPE</td>
+    <td>AAAI2023</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>6.1</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>9.1</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>12.0</td>
+  </tr>
+   <tr>
+    <td>VFA</td>
+    <td>AAAI2023</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>13.14</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>15.08</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>13.89</td>
+  </tr>
+   <tr>
+    <td>MM-RCNN</td>
+    <td>IEEE TGRS2022</td>
+    <td>23</td>
+    <td>81</td>
+    <td>24</td>
+    <td>43</td>
+    <td>57</td>
+    <td>89</td>
+    <td>21</td>
+    <td>56</td>
+    <td>63</td>
+    <td>90</td>
+    <td>51</td>
+    <td>68</td>
+  </tr>
+   <tr>
+    <td>FRW</td>
+    <td>IEEE TGRS2022</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>15.35</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>16.24</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>24</td>
+  </tr>
+   <tr>
+    <td>P-CNN</td>
+    <td>IEEE TGRS2021</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>41.8</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>49.17</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>63.29</td>
+  </tr>
+   <tr>
+    <td>TFA</td>
+    <td>ICML2020</td>
+    <td>17.4</td>
+    <td>6.1</td>
+    <td>20.6</td>
+    <td>14.71</td>
+    <td>28.6</td>
+    <td>10.9</td>
+    <td>20.1</td>
+    <td>19.88</td>
+    <td>34.2</td>
+    <td>12.6</td>
+    <td>21.0</td>
+    <td>22.61</td>
+  </tr>
+   <tr>
+    <td>Ours</td>
+    <td></td>
+    <td>55.3</td>
+    <td>80.4</td>
+    <td>34.7</td>
+    <td>56.81</td>
+    <td>72.9</td>
+    <td>88.5</td>
+    <td>40.1</td>
+    <td>67.18</td>
+    <td>84.0</td>
+    <td>90.0</td>
+    <td>46.8</td>
+    <td>73.61</td>
   </tr>
 </table>
 
